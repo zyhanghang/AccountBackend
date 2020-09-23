@@ -1,0 +1,14 @@
+# my setting
+*.class
+*.log
+*.lock
+
+# Package File
+*.jar
+*.war
+*.ear
+target/
+
+# idea
+.idea/
+*.iml
