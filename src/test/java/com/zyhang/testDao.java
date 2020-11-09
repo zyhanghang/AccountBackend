@@ -55,6 +55,6 @@ public class testDao {
     @Test
     public void testUpdate() {
         ContactDao contactDao = new ContactDao();
-        contactDao.updateContact("yiiyiuy", 1);
+        contactDao.updateContactFirstName("yiiyiuy", 1);
     }
 }
