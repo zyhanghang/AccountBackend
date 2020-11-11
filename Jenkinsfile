@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('pull code where env') {
+        stage('pull code') {
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '84a98eb0-0438-4c71-ac29-c7a925a8dffd', url: 'git@github.com:zyhanghang/AccountBackend.git']]])
             }
